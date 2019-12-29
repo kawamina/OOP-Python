@@ -18,5 +18,12 @@ if question == 1:
     print(User.getKnow(u1))
 if question == 2:
     print(User.getKnow(u2))
-#u3 =input('Please give similar info about third person: ')
+u3 =input('Please input info about Ewelina: ')
+sex3 = input('Male or female?')
+profession3 = input('Profession')
+age3 = input('Age?')
+u3 = User(sex3, profession3, age3)
+print('Is that correct?: ')
+print(User.getKnow(u3))
+
 
